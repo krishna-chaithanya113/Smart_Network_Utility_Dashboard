@@ -112,7 +112,7 @@ Output:
 
 - Uday Kiran  
 - Team: S. Hasika,  R. Sidhartha Chowdary, N. Chaitanya 
-- 💡 Guided by: [Instructor/Institution Name Here]
+- 💡 Guided by: Sahana D S
 
 ---
 
