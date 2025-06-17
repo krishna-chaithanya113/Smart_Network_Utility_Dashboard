@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Network Utility Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #eaf6f6;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        button {
+            background-color: #2c7be5;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #1a5dcc;
+        }
+        .output {
+            margin-top: 20px;
+            background: #d4edda;
+            border-left: 6px solid #28a745;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smart Network Utility Dashboard</h1>
+
+    <form method="POST">
+        <div class="section">
+            <h2>🔍 DNS Lookup</h2>
+            <input type="text" name="dns_domain" placeholder="Enter domain name (e.g., google.com)">
+            <button type="submit" name="action" value="dns">Lookup DNS</button>
+        </div>
+
+        <div class="section">
+            <h2>🏓 Ping Test</h2>
+            <input type="text" name="ping_host" placeholder="Enter host or IP (e.g., 8.8.8.8)">
+            <button type="submit" name="action" value="ping">Ping Host</button>
+        </div>
+
+        <div class="section">
+            <h2> puertos Port Scanner</h2>
+            <input type="text" name="scan_ip" placeholder="Enter IP address (e.g., 127.0.0.1)">
+            <input type="number" name="start_port" placeholder="Start Port (e.g., 1)" value="1">
+            <input type="number" name="end_port" placeholder="End Port (e.g., 100)" value="100">
+            <button type="submit" name="action" value="scan">Scan Ports</button>
+        </div>
+
+        <div class="section">
+            <h2> serve HTTP Server</h2>
+            <input type="number" name="http_port" placeholder="Enter port (e.g., 8000)" value="8000">
+            <button type="submit" name="action" value="http">Start HTTP Server</button>
+        </div>
+
+        <div class="section">
+            <h2> ↪️ Proxy Server</h2>
+            <input type="text" name="proxy_remote" placeholder="Remote Host (e.g., example.com)">
+            <button type="submit" name="action" value="proxy">Start Proxy</button>
+        </div>
+
+        <div class="section">
+            <h2>🌐 GeoIP Locator</h2>
+            <input type="text" name="geoip_ip" placeholder="Enter IP address (e.g., 8.8.8.8)">
+            <button type="submit" name="action" value="geoip">Locate IP</button>
+        </div>
+    </form>
+
+    {% if result %}
+    <div class="output">
+        <h3>Result:</h3>
+        <pre>{{ result }}</pre>
+    </div>
+    {% endif %}
+
+</body>
+</html>
