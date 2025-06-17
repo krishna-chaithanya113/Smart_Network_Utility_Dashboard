@@ -110,9 +110,14 @@ Output:
 
 ## 🧑‍💻 Authors
 
-- Uday Kiran  
-- Team: S. Hasika,  R. Sidhartha Chowdary, N. Chaitanya 
-- 💡 Guided by: Sahana D S
+- P. UdayKiran  
+- Team: S. Hasika,  R. Sidhartha Chowdary, N. Chaithanya Krishna
+- 💡 Guided by: Mrs. Sahana D S
+                Assistant Professor
+                Department of CSE
+                GITAM School of Technology
+                GITAM (deemed to be university)
+                Bengaluru
 
 ---
 
