@@ -110,13 +110,13 @@ Output:
 
 ## 🧑‍💻 Authors
 
-- P. UdayKiran  
-- Team: S. Hasika,  R. Sidhartha Chowdary, N. Chaithanya Krishna
+- Lead: P. UdayKiran - https://github.com/Udaykiranpotteppagari
+- Team: S. Hasika - https://github.com/hasi21-sun ,  R. Sidhartha Chowdary - https://github.com/Sidhartha143 , N. Chaithanya Krishna - https://github.com/krishna-chaithanya113
 - 💡 Guided by: Mrs. Sahana D S,
                 Assistant Professor,
                 Department of CSE,
-                GITAM School of Technology,
-                GITAM (deemed to be university),
+                GITAM School of Technology, 
+                GITAM( Deemed to be University),
                 Bengaluru
 
 ---
